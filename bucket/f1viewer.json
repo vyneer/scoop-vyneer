@@ -1,0 +1,33 @@
+{
+    "version": "1.2.0",
+    "description": "TUI for F1TV",
+    "homepage": "https://github.com/SoMuchForSubtlety/f1viewer",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SoMuchForSubtlety/f1viewer/releases/download/v1.2.0/f1viewer_1.2.0_windows_64-bit.zip",
+            "hash": "c2fd460c3fcb9224b037fe11650f65bb49ebcf9dba3ed060e66c77585143e329"
+        },
+        "32bit": {
+            "url": "https://github.com/SoMuchForSubtlety/f1viewer/releases/download/v1.2.0/f1viewer_1.2.0_windows_32-bit.zip",
+            "hash": "fc1031a225277082b4b3a2fb1ef3717daaad4e74d78c5db71b9f41a572bfa7fb"
+        }
+    },
+    "bin": "f1viewer.exe",
+    "shortcuts": [
+        [
+            "f1viewer.exe",
+            "f1viewer"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SoMuchForSubtlety/f1viewer/releases/download/v$version/f1viewer_$version_windows_64-bit.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/SoMuchForSubtlety/f1viewer/releases/download/v$version/f1viewer_$version_windows_32-bit.zip"
+            }
+        }
+    }
+}
