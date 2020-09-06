@@ -21,7 +21,7 @@
         ]
     ],
     "suggest": {
-        "MPV": "extras/mpv-get",
+        "MPV": "extras/mpv-git",
         "VLC": "extras/vlc"
     },
     "checkver": "github",
