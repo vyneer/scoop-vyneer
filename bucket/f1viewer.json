@@ -1,7 +1,8 @@
 {
     "version": "1.3.0",
-    "description": "TUI for F1TV",
+    "description": "TUI client for F1TV",
     "homepage": "https://github.com/SoMuchForSubtlety/f1viewer",
+    "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://github.com/SoMuchForSubtlety/f1viewer/releases/download/v1.3.0/f1viewer_1.3.0_windows_64-bit.zip",
@@ -19,6 +20,10 @@
             "f1viewer"
         ]
     ],
+    "suggest": {
+        "MPV": "extras/mpv-get",
+        "VLC": "extras/vlc"
+    },
     "checkver": "github",
     "autoupdate": {
         "architecture": {
