@@ -1,16 +1,16 @@
 {
-    "version": "5.1.1",
+    "version": "5.1.6",
     "description": "Simple and Convenient Messaging App for VK",
     "homepage": "https://vk.com/desktop_app",
     "license": "Unknown",
     "architecture": {
         "64bit": {
             "url": "https://desktop.userapi.com/win64/master/latest.zip",
-            "hash": "106855244fff671cee50411bda66730615b1726bbf52582c593b36d9e5afac4e"
+            "hash": "57abd367a2c143fdb092e9a08da634514168f33d3dd159009c1088c2d162ee32"
         },
         "32bit": {
             "url": "https://desktop.userapi.com/win32/master/latest.zip",
-            "hash": "9f3096e691f2ac420f588a0b4524bc9cad2b8178ac97cb926ac2f4d5a7d08242"
+            "hash": "2482fb96092fa8e2027924f1045df8b5abb488ec85b65946c48c6eb9e2e40c5c"
         }
     },
     "bin": "vk.exe",
