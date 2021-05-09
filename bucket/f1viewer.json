@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/SoMuchForSubtlety/f1viewer/releases/download/v2.0.1/f1viewer_2.0.1_windows_amd64.zip",
-            "hash": "8325caade3b048b56316566e9d066a05528fb5eba0be833750184bdbc56e9d22"
+            "hash": "1d76663b539f5376a9193693e079c7977a2044aa6475278f9448b071ddb82183"
         }
     },
     "bin": "f1viewer.exe",
