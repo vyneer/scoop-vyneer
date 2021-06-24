@@ -1,12 +1,12 @@
 {
-    "version": "2.0.1",
+    "version": "2.1.0",
     "description": "TUI client for F1TV",
     "homepage": "https://github.com/SoMuchForSubtlety/f1viewer",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SoMuchForSubtlety/f1viewer/releases/download/v2.0.1/f1viewer_2.0.1_windows_amd64.zip",
-            "hash": "1d76663b539f5376a9193693e079c7977a2044aa6475278f9448b071ddb82183"
+            "url": "https://github.com/SoMuchForSubtlety/f1viewer/releases/download/v2.1.0/f1viewer_2.1.0_windows_amd64.zip",
+            "hash": "48a868c7b72460969aa5a9d1560aa3c90339345ade7b0d60d41d4d6c60efa00e"
         }
     },
     "bin": "f1viewer.exe",
